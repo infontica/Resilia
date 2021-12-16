@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFAF0;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: blue;
+}
+
+.contato {
+    color: brown;
+}
+
+.contato:hover {
+    background-color: pink;
+}
+
+.contato:hover::first-letter{
+    color: black;
+}
+
+.contato::first-letter{
+    color:blue;
+}
+
